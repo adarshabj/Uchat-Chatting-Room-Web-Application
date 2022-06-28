@@ -1,0 +1,20 @@
+{
+  "name": "uchat",
+  "version": "1.0.0",
+  "description": "free chatting ",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "author": "ABJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
